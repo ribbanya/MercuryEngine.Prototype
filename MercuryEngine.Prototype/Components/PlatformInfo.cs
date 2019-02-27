@@ -1,8 +1,9 @@
 ﻿using MercuryEngine.Prototype.EntityComponentSystem;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace MercuryEngine.Prototype.Components {
   [ComponentData]
-  public struct Position {
-    public float X, Y;
+  public struct PlatformInfo {
+    public Viewport Viewport;
   }
 }
